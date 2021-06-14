@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+    url("sakura.jpg") no-repeat center;
+    height: 90vh;
+
+}
+
+
+
+
+.login-form {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 40px 0;
+}
+
+
+
+.form-border {
+    width: 300px;
+    margin-top: 40px;
+}
+
+.login-title h2 {
+    padding: 13px 0;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: #454059 5px solid;
+}
+
+.form-group {
+    width: 100%;
+    font-size: 18px;
+    background-color: none;
+    align-items: center;
+    background-color: none;
+    padding: 3px 0;
+    margin-top: 20px;
+}
+
+.form-group .input {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 2px 0;
+    border-bottom: 2px solid #454059;
+
+}
+
+.btn {
+    width: 100%;
+    border:  #454059 2px solid;
+    border-radius: 9px;
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 22px;
+    cursor: pointer;
+    background-color: rgba(248, 238, 238, 0.3);
+    z-index: 1;
+
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: black;
+    transition: .3s;
+}
+
+
+
+.form-group input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+
+
+}
+
+
+
+
